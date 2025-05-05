@@ -1,0 +1,21 @@
+img{
+    height:300px;
+    width:400px;
+}
+    div{
+        display:flex;
+        justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: plum; 
+    border: dotted 5px cornflowerblue;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 15px;
+}
+#Gateway{
+    background-color:orchid;
+}
