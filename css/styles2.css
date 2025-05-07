@@ -10,11 +10,26 @@ a{
     text-decoration: none;
 }
 body{
+    table{
+        border-collapse: collapse;
+        text-align: center;
+        padding: 5px;
+        font-family: 'Times New Roman', Times, serif;
+    }
     background-color: plum; 
     border: dotted 5px cornflowerblue;
     margin-top: 100px;
     margin-left: 100px;
     padding: 15px;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin-left: 20px;
 }
 #Gateway{
     background-color:orchid;
